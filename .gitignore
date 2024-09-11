@@ -10,3 +10,4 @@ yarn-error.log*
 /dist
 /.idea
 .vscode/*
+.DS_Store
