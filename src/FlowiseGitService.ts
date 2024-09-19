@@ -24,7 +24,6 @@ export class FlowiseGitService {
         if (!installed) {
             throw new Error('Git is not installed');
         }
-        this.git.status()
     }
 
     getRemoteBranches = async(): Promise<{ branches: string[] }> => {
@@ -78,7 +77,6 @@ export class FlowiseGitService {
         try {
             // Get remote branches
             const statusResult = await this.git.status()
-            console.log(statusResult)
             return { tracking: statusResult.current as string }
         } catch (error) {
             throw new Error('Could not get status from repository', { cause: error });
@@ -165,7 +163,6 @@ export class FlowiseGitService {
         if (!this.git) {
             throw new Error('Git is not initialized');
         }
-        console.log('Git Path :: ', this.gitFolder)
         return this.git.version();
     }
 
