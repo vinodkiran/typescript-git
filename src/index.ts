@@ -1,7 +1,7 @@
 import {FlowiseGitService} from "./FlowiseGitService.js";
 
-// const git_folder = '/Users/vinodkiran/code/github/vinodkiran/Flowise'
-const git_folder = '/Users/vinodkiran/code/github/FlowiseAI/FlowiseCloud'
+const git_folder = '/Users/vinodkiran/code/github/vinodkiran/Flowise'
+// const git_folder = '/Users/vinodkiran/code/github/FlowiseAI/FlowiseCloud'
 const flowiseGit = new FlowiseGitService(git_folder)
 await flowiseGit.init()
 
