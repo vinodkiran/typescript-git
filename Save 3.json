@@ -1,0 +1,21 @@
+{
+  "id": "1e1c9ab9-ccb6-498b-9e03-bd18394bec2c",
+  "name": "Save 3",
+  "flowData": "{\"nodes\":[{\"id\":\"braveSearchMCP_0\",\"position\":{\"x\":598,\"y\":116},\"type\":\"customNode\",\"data\":{\"loadMethods\":{},\"label\":\"Brave Search MCP\",\"name\":\"braveSearchMCP\",\"version\":1,\"type\":\"BraveSearch MCP Tool\",\"icon\":\"/Users/vinodkiran/code/github/vinodkiran/FlowiseAI/packages/server/node_modules/flowise-components/dist/nodes/tools/MCP/BraveSearch/brave.svg\",\"category\":\"Tools (MCP)\",\"description\":\"MCP server that integrates the Brave Search API - a real-time API to access web search capabilities\",\"documentation\":\"https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search\",\"credential\":\"\",\"inputs\":{\"mcpActions\":\"\"},\"baseClasses\":[\"Tool\"],\"filePath\":\"/Users/vinodkiran/code/github/vinodkiran/FlowiseAI/packages/server/node_modules/flowise-components/dist/nodes/tools/MCP/BraveSearch/BraveSearchMCP.js\",\"inputAnchors\":[],\"inputParams\":[{\"label\":\"Connect Credential\",\"name\":\"credential\",\"type\":\"credential\",\"credentialNames\":[\"braveSearchApi\"],\"id\":\"braveSearchMCP_0-input-credential-credential\",\"display\":true},{\"label\":\"Available Actions\",\"name\":\"mcpActions\",\"type\":\"asyncMultiOptions\",\"loadMethod\":\"listActions\",\"refresh\":true,\"id\":\"braveSearchMCP_0-input-mcpActions-asyncMultiOptions\",\"display\":true}],\"outputs\":{},\"outputAnchors\":[{\"id\":\"braveSearchMCP_0-output-braveSearchMCP-Tool\",\"name\":\"braveSearchMCP\",\"label\":\"BraveSearch MCP Tool\",\"description\":\"MCP server that integrates the Brave Search API - a real-time API to access web search capabilities\",\"type\":\"Tool\"}],\"id\":\"braveSearchMCP_0\",\"selected\":false},\"width\":300,\"height\":378,\"positionAbsolute\":{\"x\":598,\"y\":116}}],\"edges\":[],\"viewport\":{\"x\":102.79365079365084,\"y\":-86.87157287157288,\"zoom\":0.8946608946608946}}",
+  "deployed": false,
+  "isPublic": false,
+  "apikeyid": null,
+  "chatbotConfig": "{\"gitVersioning\":{\"status\":true}}",
+  "apiConfig": null,
+  "analytic": null,
+  "speechToText": null,
+  "followUpPrompts": null,
+  "category": null,
+  "type": "CHATFLOW",
+  "createdDate": "2025-07-11T12:56:13.929Z",
+  "updatedDate": "2025-07-11T12:56:35.269Z",
+  "workspaceId": "1c192293-7276-4dd2-90d0-a2203703de06",
+  "lastPublishedAt": null,
+  "lastPublishedCommit": null,
+  "isDirty": true
+}
