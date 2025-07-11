@@ -1,0 +1,21 @@
+{
+  "id": "fc9f5345-859e-4a9b-9373-f68dc50b2fbf",
+  "name": "Save 2",
+  "flowData": "{\"nodes\":[{\"id\":\"autoGPT_0\",\"position\":{\"x\":496,\"y\":121},\"type\":\"customNode\",\"data\":{\"label\":\"AutoGPT\",\"name\":\"autoGPT\",\"version\":2,\"type\":\"AutoGPT\",\"category\":\"Agents\",\"badge\":\"DEPRECATING\",\"icon\":\"/Users/vinodkiran/code/github/vinodkiran/FlowiseAI/packages/server/node_modules/flowise-components/dist/nodes/agents/AutoGPT/autogpt.svg\",\"description\":\"Autonomous agent with chain of thoughts for self-guided task completion\",\"baseClasses\":[\"AutoGPT\"],\"inputs\":{\"tools\":\"\",\"model\":\"\",\"vectorStoreRetriever\":\"\",\"aiName\":\"\",\"aiRole\":\"\",\"maxLoop\":5,\"inputModeration\":\"\"},\"filePath\":\"/Users/vinodkiran/code/github/vinodkiran/FlowiseAI/packages/server/node_modules/flowise-components/dist/nodes/agents/AutoGPT/AutoGPT.js\",\"inputAnchors\":[{\"label\":\"Allowed Tools\",\"name\":\"tools\",\"type\":\"Tool\",\"list\":true,\"id\":\"autoGPT_0-input-tools-Tool\",\"display\":true},{\"label\":\"Chat Model\",\"name\":\"model\",\"type\":\"BaseChatModel\",\"id\":\"autoGPT_0-input-model-BaseChatModel\",\"display\":true},{\"label\":\"Vector Store Retriever\",\"name\":\"vectorStoreRetriever\",\"type\":\"BaseRetriever\",\"id\":\"autoGPT_0-input-vectorStoreRetriever-BaseRetriever\",\"display\":true},{\"label\":\"Input Moderation\",\"description\":\"Detect text that could generate harmful output and prevent it from being sent to the language model\",\"name\":\"inputModeration\",\"type\":\"Moderation\",\"optional\":true,\"list\":true,\"id\":\"autoGPT_0-input-inputModeration-Moderation\",\"display\":true}],\"inputParams\":[{\"label\":\"AutoGPT Name\",\"name\":\"aiName\",\"type\":\"string\",\"placeholder\":\"Tom\",\"optional\":true,\"id\":\"autoGPT_0-input-aiName-string\",\"display\":true},{\"label\":\"AutoGPT Role\",\"name\":\"aiRole\",\"type\":\"string\",\"placeholder\":\"Assistant\",\"optional\":true,\"id\":\"autoGPT_0-input-aiRole-string\",\"display\":true},{\"label\":\"Maximum Loop\",\"name\":\"maxLoop\",\"type\":\"number\",\"default\":5,\"optional\":true,\"id\":\"autoGPT_0-input-maxLoop-number\",\"display\":true}],\"outputs\":{},\"outputAnchors\":[{\"id\":\"autoGPT_0-output-autoGPT-AutoGPT\",\"name\":\"autoGPT\",\"label\":\"AutoGPT\",\"description\":\"Autonomous agent with chain of thoughts for self-guided task completion\",\"type\":\"AutoGPT\"}],\"id\":\"autoGPT_0\",\"selected\":false},\"width\":300,\"height\":685,\"positionAbsolute\":{\"x\":496,\"y\":121}}],\"edges\":[],\"viewport\":{\"x\":394.78301260783013,\"y\":-33.01559389515592,\"zoom\":0.5189117451891174}}",
+  "deployed": false,
+  "isPublic": false,
+  "apikeyid": null,
+  "chatbotConfig": "{\"gitVersioning\":{\"status\":true}}",
+  "apiConfig": null,
+  "analytic": null,
+  "speechToText": null,
+  "followUpPrompts": null,
+  "category": null,
+  "type": "CHATFLOW",
+  "createdDate": "2025-07-11T12:43:28.052Z",
+  "updatedDate": "2025-07-11T12:44:24.884Z",
+  "workspaceId": "1c192293-7276-4dd2-90d0-a2203703de06",
+  "lastPublishedAt": null,
+  "lastPublishedCommit": null,
+  "isDirty": true
+}
