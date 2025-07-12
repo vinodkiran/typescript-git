@@ -5,7 +5,7 @@
   "deployed": false,
   "isPublic": false,
   "apikeyid": null,
-  "chatbotConfig": "{\"gitVersioning\":{\"status\":true}}",
+  "chatbotConfig": "{\"gitVersioning\":{\"status\":true},\"chatFeedback\":{\"status\":true}}",
   "apiConfig": null,
   "analytic": null,
   "speechToText": null,
@@ -13,9 +13,9 @@
   "category": null,
   "type": "CHATFLOW",
   "createdDate": "2025-04-23T15:21:28.738Z",
-  "updatedDate": "2025-07-12T03:45:02.054Z",
+  "updatedDate": "2025-07-12T04:17:20.039Z",
   "workspaceId": "1c192293-7276-4dd2-90d0-a2203703de06",
-  "lastPublishedAt": "2025-07-11T14:19:15.230Z",
-  "lastPublishedCommit": "6adc1e0877b2fc1e723d8157337d4f8d4ef9ce1b",
+  "lastPublishedAt": "2025-07-12T03:45:34.101Z",
+  "lastPublishedCommit": "f8a1ae7d966757b8fe8dd20aa3d62bd1212c80a8",
   "isDirty": true
 }
